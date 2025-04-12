@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Он рядом</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <audio id="bg-audio" src="assets/creepy-sound.mp3" loop autoplay></audio>
+  <div class="scanlines"></div>
+  <div class="content">
+    <h1>ОН СМОТРИТ НА ТЕБЯ</h1>
+    <p id="whisper">...</p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
