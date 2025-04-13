@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Он рядом</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="video-background">
+    <video id="bg-video" autoplay loop muted>
+      <source src="assets/video.mp4" type="video/mp4" />
+    </video>
+  </div>
+
+  <audio id="bg-audio" src="assets/audio.mp3" autoplay></audio>
+
+  <div class="scanlines"></div>
+  <div class="content">
+    <h1>ОН СМОТРИТ НА ТЕБЯ</h1>
+    <p id="whisper">...</p>
+
+    <div class="buttons">
+      <button id="see">увидеть его</button>
+      <button id="pray">помолиться</button>
+    </div>
+
+    <p id="see-text" class="hidden scary-text"></p>
+    <p id="pray-text" class="hidden scary-text"></p>
+    <p id="end-text" class="hidden end-credit">director by prosto_bob</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
